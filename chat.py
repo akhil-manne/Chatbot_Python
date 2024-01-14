@@ -1,6 +1,7 @@
 import openai
 
 openai.api_key = "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"
+# Make sure to go to the openAI website and secure a new secret API key. The above key has been revoked.
 
 messages = []
 system_msg = input("What type of chatbot would you like to create?\n")
